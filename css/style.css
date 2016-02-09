@@ -1,0 +1,212 @@
+/* colors
+thistle2 (light purple)	#EED2EE
+orfu pink	(medium purple) #ECC8EC
+thistle (SVG)	(dark purple) #D8BFD8
+bermuda (purple/peach)	#F6C9CC
+camo1 (pastel green)	#CFDBC5
+lavenderblush (SVG) (light pink)	#FFF0F5
+lavenderblush2	(purple grey) #EEE0E5
+dark burgundy #500000
+ */
+
+.top-section {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  background-color: #CFDBC5;
+}
+
+.top-section p {
+  font-size: 18px;
+}
+
+.top-section h1 {
+  font-size: 60px;
+  padding: 20px 0px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+/*.top-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+*/
+
+body{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+section {
+  padding: 20px;
+}
+
+#navigation {
+  width: 100%;
+  background-color: #D8BFD8;
+  position: fixed;
+  padding: 30px 0px;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+
+#navigation ul {
+  display: block;
+}
+
+#navigation ul li {
+  display: inline;
+  cursor: pointer;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+navigation a:link {
+    color: #EEE0E5;
+}
+
+/* visited link */
+navigation a:visited {
+    color: #EEE0E5;
+}
+
+/* mouse over link */
+navigation a:hover {
+    color: #EEE0E5;
+}
+
+/* selected link */
+navigation a:active {
+    color: #EEE0E5;
+}
+
+#their-story-section {
+  background-color: #F6C9CC;
+  clear: both;
+}
+
+#photos-section {
+  background-color: #FFF0F5;
+}
+
+#wedding-details-section {
+  background-color: #CFDBC5;
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+/*
+#wedding-details-section h1 {
+  clear: both;
+} */
+
+.event-details {
+  text-align: right;
+  float:left;
+  width: 50%;
+  height: 100px;
+}
+
+.google-map {
+  float: left;
+  width: 50%;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#rsvp-section {
+  background-color: #ECC8EC;
+  clear: both;
+}
+
+#rsvp-style {
+  background-color: #EED2EE;
+  margin: 20px 50px;
+  border-style: double;
+  border-width: 10px;
+  border-color: #FFF0F5;
+  width: 600px;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  font-size: 16px;
+}
+
+form p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+footer {
+  background-color: #EEE0E5;
+  color: #500000;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}

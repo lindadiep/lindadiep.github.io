@@ -14,7 +14,7 @@ dark burgundy #500000
   margin: 0 auto;
   height: auto;
   display: block;
-  background-color: #CFDBC5;
+  background-color: #FFF0F5;
 }
 
 .top-section p {
@@ -40,6 +40,7 @@ h2 {
 */
 
 body{
+  /*background-color: #EEE0E5;*/
   font-family: 'Cabin', sans-serif;
   text-align: center;
   font-size: 24px;
@@ -55,7 +56,7 @@ section {
 
 #navigation {
   width: 100%;
-  background-color: #D8BFD8;
+  /*background-color: #D8BFD8;*/
   position: fixed;
   padding: 30px 0px;
   font-size: 24px;
@@ -77,36 +78,36 @@ a {
 }
 
 /* unvisited link */
-navigation a:link {
+#navigation a:link {
     color: #EEE0E5;
 }
 
 /* visited link */
-navigation a:visited {
+#navigation a:visited {
     color: #EEE0E5;
 }
 
 /* mouse over link */
-navigation a:hover {
+#navigation a:hover {
     color: #EEE0E5;
 }
 
 /* selected link */
-navigation a:active {
+#navigation a:active {
     color: #EEE0E5;
 }
 
 #their-story-section {
-  background-color: #F6C9CC;
+  /*background-color: #F6C9CC;*/
   clear: both;
 }
 
 #photos-section {
-  background-color: #FFF0F5;
+  /*background-color: #FFF0F5;*/
 }
 
 #wedding-details-section {
-  background-color: #CFDBC5;
+  /*background-color: #CFDBC5;*/
   float: left;
   width: 100%;
   padding: 0;
@@ -135,12 +136,12 @@ navigation a:active {
 }
 
 #rsvp-section {
-  background-color: #ECC8EC;
+  /*background-color: #ECC8EC;*/
   clear: both;
 }
 
 #rsvp-style {
-  background-color: #EED2EE;
+  /*background-color: #EED2EE;*/
   margin: 20px 50px;
   border-style: double;
   border-width: 10px;
@@ -162,7 +163,7 @@ form p {
 }
 
 footer {
-  background-color: #EEE0E5;
+  /*background-color: #EEE0E5;*/
   color: #500000;
   font-weight: 600;
   font-size: 20px;

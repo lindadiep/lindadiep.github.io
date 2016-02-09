@@ -10,7 +10,7 @@ dark burgundy #500000
  */
 
 body{
-  background-color: #EEE0E5;
+  background-color: #F5F5F5;
   font-family: 'Cabin', sans-serif;
   text-align: center;
   font-size: 24px;
@@ -57,7 +57,7 @@ section {
 
 #navigation {
   width: 100%;
-  background-color: #EED2EE;
+  background-color: #EEE0E5;
   position: fixed;
   padding: 30px 0px;
   font-size: 24px;
@@ -80,22 +80,22 @@ a {
 
 /* unvisited link */
 #navigation a:link {
-    color: #D8BFD8;
+    color: #500000;
 }
 
 /* visited link */
 #navigation a:visited {
-    color: #D8BFD8;
+    color: #500000;
 }
 
 /* mouse over link */
 #navigation a:hover {
-    color: #D8BFD8;
+    color: #500000;
 }
 
 /* selected link */
 #navigation a:active {
-    color: #D8BFD8;
+    color: #500000;
 }
 
 #their-story-section {

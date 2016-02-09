@@ -11,8 +11,8 @@ dark burgundy #500000
 
 .top-section {
   width: 100%;
-  margin: 0 auto;
-  height: auto;
+  margin: 40px auto;
+  height: 450px;
   display: block;
   background-color: #FFF0F5;
 }

@@ -75,6 +75,12 @@ nav ul li {
   padding: 10px;
 }
 
+/* Styling to account for fixed nav: 
+<a name="myanchor">
+    <h1 style="padding-top: 40px; margin-top: -40px;">My anchor</h1>
+</a>
+*/
+
 a {
   text-decoration: none;
 }

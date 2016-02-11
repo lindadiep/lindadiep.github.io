@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-  </head>
+    
+    <script>
+    	var shiftWindow = function() { scrollBy(0, -50) };
+    	window.addEventListener("hashchange", shiftWindow);
+    	function load() { if (window.location.hash) shiftWindow(); }
+    </script>
 
-  <body>
+  <body onload="load()">
 
     <nav>
       <div>

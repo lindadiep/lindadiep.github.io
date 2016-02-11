@@ -52,7 +52,6 @@ p {
 }
 
 section {
-  margin-top: 75px;
   padding: 20px;
 }
 
@@ -103,6 +102,7 @@ nav a:active {
 #their-story-section {
   /*background-color: #F6C9CC;*/
   clear: both;
+  margin-top: 75px;
 }
 
 #photos-section {

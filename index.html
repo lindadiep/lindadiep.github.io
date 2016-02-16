@@ -8,21 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-    
-    <script>
-    	var shiftWindow = function() { scrollBy(0, -50) };
-    	window.addEventListener("hashchange", shiftWindow);
-    	function load() { if (window.location.hash) shiftWindow(); }
-    </script>
 
-  <body onload="load()">
+
+  <body>
 
     <nav>
       <div>
         <ul>
-          <li><a href="#theirStory">THEIR STORY</a></li> 
-          <li><a href="#photos">PHOTOS</a></li> 
-          <li><a href="#eventDetails">WEDDING DETAILS</a></li> 
+          <li><a href="#theirStory">THEIR STORY</a></li>
+          <li><a href="#photos">PHOTOS</a></li>
+          <li><a href="#eventDetails">WEDDING DETAILS</a></li>
           <li><a href="#rsvp">RSVP</a></li>
         </ul>
       </div>
@@ -30,9 +25,7 @@
 
     <div class="top-section">
       <div>
-        <h1>Jean and Steve</h1>
-        <p>WE'RE GETTING MARRIED!</p>
-        <p>9 - 10 - 2016</p>
+        <img src="images/JS-4.jpg" alt="Jean and Steve">
       </div>
     </div>
 
@@ -48,6 +41,13 @@
     <section id="photos-section">
       <a name="photos"><h2>PHOTOS</h2></a>
       <p>Best javascript carousel of photos ever!</p>
+
+      <img id="carousel-Img" src="images/JS-1.jpg">
+
+      <form>
+          <input type="button" class="carouselBtn" value="Prev">
+          <input type="button" class="carouselBtn" value="Next">
+      </form>
 
     </section>
 
@@ -71,7 +71,6 @@
         <div class="google-map">
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12381.947664521655!2d-77.239441!3d39.11815!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ce736d8aff6f070!2sKentlands+Mansion!5e0!3m2!1sen!2sus!4v1454221032614" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.638532403777!2d-77.10637928464521!3d39.04636027954794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7cc27c6efcb7b%3A0x2960dd3159f78843!2sFar+East+Restaurant!5e0!3m2!1sen!2sus!4v1454219665494" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
         </div>

@@ -160,6 +160,8 @@ nav a:active {
   width: 600px;
 }
 
+/* To format the form: http://www.htmlgoodies.com/tutorials/forms/article.php/3888746/HTML-Forms-From-Basics-to-Style-Layouts.htm */
+
 form {
   text-align: left;
 }

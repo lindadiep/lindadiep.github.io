@@ -28,6 +28,13 @@
     </div>
 
     <section id="their-story-section">
+      <!-- 
+        I believe your links are not jumping to the top of each section because the <h2> tag is a child
+        tag of the <a> tag.  Try changing the line below to this to pull the <h2> outside of the <a> tag.
+
+        <a name="theirStory"></a>
+        <h2>THEIR STORY</h2>
+      -->
       <a name="theirStory"><h2>THEIR STORY</h2></a>
       <p>Amazing love story timeline powered by javascript goes here!!</p>
       <div id="heart">
@@ -81,6 +88,11 @@
 
         <form>
           <p>Your contact information</p>
+          <!-- 
+            Instead of using <div> tags to group together parts of your form, you should
+            use <fieldset> instead.  Take a look here:
+            http://www.w3schools.com/tags/tag_fieldset.asp
+          -->
           <div>
             <label for="name">Name:</label>
             <input type="text" name="name[first]" placeholder="First">
@@ -114,6 +126,7 @@
           </div>
         </form>
 
+        <!-- Your submit button should also be inside of your <form> tag -->
         <button type="submit" class="btn btn-default" form="nameform" value="Submit">Submit</button>
 
       </div>

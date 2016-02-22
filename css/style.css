@@ -212,6 +212,9 @@ section {
   text-align: center;
 }
 
+/* To format the form: */
+/* www.htmlgoodies.com/tutorials/forms/article.php/3888746/HTML-Forms-From-Basics-to-Style-Layouts.htm */
+
 form {
   text-align: left;
 }

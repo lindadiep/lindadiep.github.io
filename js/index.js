@@ -1,33 +1,39 @@
 
 
 // CAROUSEL!!!
-$(document).ready(function(){
+//$(document).ready(function(){
 
-var images=[
-    "images/JS-2.jpg",
-    "images/JS-3.jpg",
-    "images/JS-5.jpg",
-    "images/JS-6.jpg"
-    ];
+//var images=[
+//    "images/JS-2.jpg",
+//    "images/JS-3.jpg",
+//    "images/JS-5.jpg",
+//    "images/JS-6.jpg"
+//    ];
 
-var i=0;
+//var i=0;
 
-function changeImage(){
-	$("#carousel-Img").attr("src",images[i]);
-}
+//function changeImage(){
+//	$("#carousel-Img").attr("src",images[i]);
+//}
 
-function previousImage(){
-  i>0 ? changeImage(--i):0;
-}
+//function previousImage(){
+// 	i>0 ? changeImage(i--):0;
+//}
 
-function nextImage(){
-  i+1<images.length ? changeImage(++i):1;
-}
 
-$(".carouselBtn[value='Next']").on("click",nextImage);
-$(".carouselBtn[value='Prev']").on("click",previousImage);
+//function nextImage(){
+//  	i+1<images.length ? changeImage(i++):1;
+//}
 
-});
+//$(".carouselBtn[value='Next']").on("click",nextImage);
+//$(".carouselBtn[value='Prev']").on("click",previousImage);
+
+//});
+
+// use bootstrap to create a carousel! http://codepen.io/redfrost/pen/dbrgk
+// responsive carousel, this one is crazy: http://codepen.io/kqlambert/pen/qLitJ
+// http://talkerscode.com/webtricks/basic-image-slideshow-with-previous-and-next-button-using-jquery.php
+// http://stackoverflow.com/questions/24091731/i-am-having-trouble-targeting-the-next-and-prev-buttons-in-jquery-for-my-image-s
 
 // Other js code to use:
 

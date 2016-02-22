@@ -16,46 +16,17 @@ body{
   font-size: 24px;
 }
 
-.top-section {
-  width: 100%;
-  margin: 0 auto;
-  height: auto;
-  display: block;
-}
-
-.top-section img {
-  width:100%;
-  max-width: 100%;
-  padding-top: 90px;
-  margin-top: -90px;
-  /*z-index:-9999;*/
-}
-
-h2 {
-  font-size: 30px;
-  padding: 20px 0;
-  padding-top: 75px;
-  margin-top: -75px;
-}
-
-p {
-  font-family: 'Roboto Slab', serif;
-  padding: 20px;
-}
-
-section {
-  padding: 20px;
-}
-
 nav {
   width: 100%;
   background-color: #EEE0E5;
   position: fixed;
+  top: 0;
+  display: block;
   padding: 20px 0px;
   font-size: 16px;
   box-sizing: border-box;
   height: 60px;
-  text-align: right;
+  z-index: 1;
 }
 
 nav ul {
@@ -67,12 +38,6 @@ nav ul li {
   cursor: pointer;
   padding: 10px;
 }
-
-/* Styling to account for fixed nav:
-<a name="myanchor">
-    <h1 style="padding-top: 40px; margin-top: -40px;">My anchor</h1>
-</a>
-*/
 
 a {
   text-decoration: none;
@@ -92,6 +57,7 @@ nav a:visited {
 nav a:hover {
     color: #500000;
 	  border-bottom: 5px solid #CFDBC5;
+    text-decoration: none;
 }
 
 /* selected link */
@@ -99,72 +65,164 @@ nav a:active {
     color: #500000;
 }
 
+/* --------------- TOP SECTION ------------- */
+
+.top-section {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.top-section img {
+  width:100%;
+  max-width: 100%;
+  padding-top: 90px;
+  margin-top: -90px;
+  display: block;
+}
+
+h2 {
+  color: #500000;
+  font-size: 30px;
+  padding: 20px 0;
+  padding-top: 75px;
+  margin-top: -75px;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  padding-top: 100px;
+}
+
+/* --------------- THEIR STORY SECTION --------------- */
+
 #their-story-section {
-  /*background-color: #F6C9CC;*/
   clear: both;
 }
 
+#story-container {
+  width: 100%;
+  float: left;
+}
+
+#story-container img {
+  width: 50px;
+  height: 50px;
+}
+
+#story-container span {
+  font-size: 30px;
+  padding: 0 20px;
+}
+
+.jean, .steve {
+  float: left;
+  width: 50%;
+}
+
+/* --------------- PHOTO SECTION --------------- */
+
 #photos-section {
-  /*background-color: #FFF0F5;*/
+  clear: both;
 }
 
-#carousel-Img {
-  width:800px;
-	height:800px;
+#pics-slideshow {
+  height: 700px;
+  width: 700px;
+  margin: 50px 250px;
 }
 
-.carouselBtn {
-  cursor: pointer;
+#pics-slideshow img {
+  width: 100%;
 }
+
+.glyphicon-chevron-left:after {
+  color: black;
+}
+
+.glyphicon-chevron-right:before {
+  color: black;
+}
+
+.carousel-control.left{
+  background: transparent;
+}
+
+.carousel-control.right{
+  background: transparent;
+}
+
+/* --------------- WEDDING DETAILS SECTION --------------- */
 
 #wedding-details-section {
-  /*background-color: #CFDBC5;*/
   float: left;
   width: 100%;
   padding: 0;
 }
-/*
-#wedding-details-section h1 {
-  clear: both;
-} */
 
-.event-details {
-  text-align: right;
+.event-details-ceremony {
   float:left;
   width: 50%;
-  height: 100px;
+  position: relative;
 }
 
-.google-map {
+.event-details-ceremony p span {
+  text-align: left;
+}
+
+.ceremony-map {
+  /*position: absolute;*/
+  /*bottom: 0;
+  left: 0;*/
+}
+
+.event-details-reception {
   float: left;
   width: 50%;
+  position: relative;
 }
 
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
+.reception-map {
+  /*position: absolute;*/
+  /*bottom: 0;
+  left: 0;*/
 }
+
+/* --------------- RSVP SECTION --------------- */
 
 #rsvp-section {
-  /*background-color: #ECC8EC;*/
   clear: both;
 }
 
-#rsvp-style {
-  /*background-color: #EED2EE;*/
-  margin: 20px 50px;
+.rsvp-style {
+  clear: both;
+  padding: 20px 0px 20px 440px;
   border-style: double;
   border-width: 10px;
-  border-color: #FFF0F5;
-  width: 600px;
+  border-color: #EEE0E5;
+}
+
+.rsvp-style h3 {
+  font-size: 24px;
+  text-align: center;
 }
 
 form {
   text-align: left;
 }
 
-label {
+legend {
+  padding: 20px 0px;
+  margin: 0;
+  border-bottom: none;
+}
+
+label, input, textarea {
   font-size: 16px;
 }
 
@@ -174,7 +232,6 @@ form p {
 }
 
 footer {
-  /*background-color: #EEE0E5;*/
   color: #500000;
   font-weight: 600;
   font-size: 20px;

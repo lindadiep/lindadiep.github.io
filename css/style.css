@@ -162,7 +162,6 @@ section {
 #wedding-details-section {
   float: left;
   width: 100%;
-  padding: 0;
 }
 
 .event-details-ceremony {
@@ -175,11 +174,6 @@ section {
   text-align: left;
 }
 
-.ceremony-map {
-  /*position: absolute;*/
-  /*bottom: 0;
-  left: 0;*/
-}
 
 .event-details-reception {
   float: left;
@@ -187,11 +181,6 @@ section {
   position: relative;
 }
 
-.reception-map {
-  /*position: absolute;*/
-  /*bottom: 0;
-  left: 0;*/
-}
 
 /* --------------- RSVP SECTION --------------- */
 
@@ -218,6 +207,18 @@ h4.modal-title {
 
 .modal-header {
   border-bottom: none;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  border-color: #ccc;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: grey;
+  border-color: #ccc;
 }
 
 /* To format the form: */

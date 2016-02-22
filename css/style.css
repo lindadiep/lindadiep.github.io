@@ -201,15 +201,23 @@ section {
 
 .rsvp-style {
   clear: both;
-  padding: 20px 0px 20px 440px;
   border-style: double;
   border-width: 10px;
   border-color: #EEE0E5;
+  margin: 15px;
 }
 
 .rsvp-style h3 {
   font-size: 24px;
   text-align: center;
+}
+
+h4.modal-title {
+  font-size: 30px;
+}
+
+.modal-header {
+  border-bottom: none;
 }
 
 /* To format the form: */

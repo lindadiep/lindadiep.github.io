@@ -18,13 +18,68 @@
 
   <body>
 
+    <div id="modal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Let us know if you're coming!</h4>
+          </div>
+          <div class="modal-body rsvp-style">
+
+              <form>
+                <fieldset>
+                    <legend>Your contact information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name[first]" placeholder="First">
+                    <input type="text" name="name[last]" placeholder="Last"><br />
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your RSVP</legend>
+                    <input type="radio" name="rsvp" value="yes" checked>
+                    <label for"rsvp">Wouldn't miss it!</label>
+
+                    <input type="radio" name="rsvp" value="no">
+                    <label for"rsvp">Regretfully decline</label>
+                </fieldset>
+
+                <fieldset>
+                    <input type="checkbox" name="plus1" value="plus1-guest">
+                    <label for="plus1">Check if you're bringing a guest!</label><br />
+
+                    <label for="plus1-name">Your guest's name</label><br />
+                    <input type="text" name="plus1-name[first]" placeholder="First">
+                    <input type="text" name="plus1-name[last]" placeholder="Last">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Send a message to the happy couple!</legend>
+                    <textarea id="myTextArea"rows="5" cols="50" wrap="physical" placeholder="Message"></textarea>
+                </fieldset>
+
+                <button type="submit" class="btn btn-default" form="nameform" value="Submit">Submit</button>
+              </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
     <nav>
       <div>
           <ul>
               <li><a href="#theirStory">THEIR STORY</a></li>
               <li><a href="#photos">PHOTOS</a></li>
               <li><a href="#eventDetails">WEDDING DETAILS</a></li>
-              <li><a href="#rsvp">RSVP</a></li>
+              <li><a href="#modal" data-toggle="modal">RSVP</a></li>
           </ul>
       </div>
     </nav>
@@ -168,7 +223,7 @@
     <section id="rsvp-section">
 
       <!-- Use bootsrap to format form: http://getbootstrap.com/css/#forms -->
-
+<!-- 
       <a name="rsvp"></a>
       <h2>RSVP</h2>
       <h3>Let us know if you're coming!</h3>
@@ -212,7 +267,7 @@
         </form>
 
       </div>
-    </section>
+    </section> -->
 
     <footer>
       <p>Email us with any questions! Hope you can make it to our big day!</p>

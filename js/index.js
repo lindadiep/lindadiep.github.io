@@ -1,3 +1,11 @@
+document.getElementsByTagName("li")[0].addEventListener("click",function(){
+	if(!this.parentNode.getAttribute("class")){
+		this.parentNode.setAttribute("class","slideToggle");
+	}
+	else{
+		this.parentNode.removeAttribute("class");
+	}
+});
 
 
 // CAROUSEL!!!

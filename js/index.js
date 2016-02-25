@@ -1,12 +1,23 @@
-document.getElementsByTagName("li")[0].addEventListener("click",function(){
-	if(!this.parentNode.getAttribute("class")){
-		this.parentNode.setAttribute("class","slideToggle");
-	}
-	else{
-		this.parentNode.removeAttribute("class");
-	}
-});
+// document.getElementsByTagName("li")[0].addEventListener("click",function(){
+// 	if(!this.parentNode.getAttribute("class")){
+// 		this.parentNode.setAttribute("class","slideToggle");
+// 	}
+// 	else{
+// 		this.parentNode.removeAttribute("class");
+// 	}
+// });
 
+$(document).ready(function (){
+	$("li").click(displayNav);
+
+	function displayNav (){
+		$(this).parent().toggleClass("slideToggle");
+
+	}
+
+
+
+});
 
 // CAROUSEL!!!
 //$(document).ready(function(){

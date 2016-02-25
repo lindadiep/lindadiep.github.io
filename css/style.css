@@ -1,4 +1,4 @@
-/* colors
+/* COLORS
 thistle2 (light purple)	#EED2EE
 orfu pink	(medium purple) #ECC8EC
 thistle (SVG)	(dark purple) #D8BFD8
@@ -7,61 +7,63 @@ camo1 (pastel green)	#CFDBC5
 lavenderblush (SVG) (light pink)	#FFF0F5
 lavenderblush2	(purple grey) #EEE0E5
 dark burgundy #500000
- */
+*/
 
 body{
-  background-color: #F5F5F5;
-  font-family: 'Cabin', sans-serif;
-  text-align: center;
-  font-size: 24px;
+    background-color: #F5F5F5;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-size: 24px;
 }
 
 nav {
-  width: 100%;
-  background-color: #EEE0E5;
-  position: fixed;
-  top: 0;
-  display: block;
-  padding: 20px 0px;
-  font-size: 16px;
-  box-sizing: border-box;
-  height: 60px;
-  z-index: 1;
+    width: 100%;
+    background-color: #EEE0E5;
+    position: fixed;
+    top: 0;
+    display: block;
+    padding: 20px 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 60px;
+    z-index: 1;
 }
 
 nav ul {
-  display: block;
-  flex-wrap: wrap;
-  /*margin: 0 auto;
-  padding: 0;*/
+    display: block;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-  display: inline;
-  cursor: pointer;
-  padding: 10px;
+    display: inline;
+    cursor: pointer;
+    padding: 10px;
 }
 
 #page-header nav li:first-child{
-	float:right;
-	display: none;
-	cursor: pointer;
+  	float:right;
+  	display: none;
+  	cursor: pointer;
 }
 
 nav .line{
-	width: 3em;
-	height: .3em;
-	background: #500000;
-	border-radius: 1em;
-	margin-top: .25em;
+  	width: 3em;
+  	height: .3em;
+  	background: #500000;
+  	border-radius: 1em;
+  	margin-top: .25em;
 }
 
 .slideToggle {
-	height:20em;
+    height: 20em;
+}
+
+#page-header ul {
+    padding: 0;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* unvisited link */
@@ -89,187 +91,227 @@ nav a:active {
 /* --------------- TOP SECTION ------------- */
 
 .top-section {
-  width: 100%;
-  margin: 0 auto;
-  height: auto;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
 }
 
 .top-section img {
-  width:100%;
-  max-width: 100%;
-  padding-top: 90px;
-  margin-top: -90px;
-  display: block;
+    width:100%;
+    max-width: 100%;
+    padding-top: 90px;
+    margin-top: -90px;
+    display: block;
 }
 
 h2 {
-  color: #500000;
-  font-size: 30px;
-  padding: 20px 0;
-  padding-top: 75px;
-  margin-top: -75px;
+    color: #500000;
+    font-size: 30px;
+    padding: 20px 0;
+    padding-top: 75px;
+    margin-top: -75px;
 }
 
 p {
-  font-family: 'Roboto Slab', serif;
-  padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px;
 }
 
 section {
-  padding: 20px;
-  padding-top: 100px;
+    padding: 20px;
+    padding-top: 100px;
 }
 
 /* --------------- THEIR STORY SECTION --------------- */
 
 #their-story-section {
-  clear: both;
+    clear: both;
 }
 
 #story-container {
-  width: 100%;
-  float: left;
+    width: 100%;
+    float: left;
 }
 
 #story-container img {
-  width: 50px;
-  height: 50px;
+    width: 75px;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 #story-container span {
-  font-size: 30px;
-  padding: 0 20px;
+    font-size: 30px;
+    padding: 0 20px;
 }
 
 .jean, .steve {
-  float: left;
-  width: 50%;
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
 }
 
-/* --------------- PHOTO SECTION --------------- */
+/* --------------- PHOTOS SECTION --------------- */
 
 #photos-section {
-  clear: both;
+    clear: both;
 }
 
 #pics-slideshow {
-  height: 700px;
-  width: 700px;
-  margin: 50px 250px;
+    height: 700px;
+    width: 700px;
+    margin: 50px auto;
 }
 
 #pics-slideshow img {
-  width: 100%;
+    width: 100%;
 }
 
-.glyphicon-chevron-left:after {
-  color: black;
+.glyphicon-chevron-left:before {
+    border-radius: 25%;
+    background-color: grey;
+    padding: 7px;
 }
 
 .glyphicon-chevron-right:before {
-  color: black;
+    color: black;
+    border-radius: 25%;
+    background-color: grey;
+    padding: 7px;
 }
 
-.carousel-control.left{
-  background: transparent;
+.carousel-control {
+    width: 5%;
 }
 
-.carousel-control.right{
-  background: transparent;
+.carousel-control.left, .carousel-control.right{
+    background: transparent;
 }
+
 
 /* --------------- WEDDING DETAILS SECTION --------------- */
 
 #wedding-details-section {
-  float: left;
-  width: 100%;
+    float: left;
+    width: 100%;
 }
 
 .event-details-ceremony {
-  float:left;
-  width: 50%;
-  position: relative;
+    float:left;
+    width: 50%;
+    position: relative;
 }
-
-.event-details-ceremony p span {
-  text-align: left;
-}
-
 
 .event-details-reception {
-  float: left;
-  width: 50%;
-  position: relative;
+    float: left;
+    width: 50%;
+    position: relative;
 }
 
 
 /* --------------- RSVP SECTION --------------- */
 
 #rsvp-section {
-  clear: both;
+    clear: both;
 }
 
 .rsvp-style {
-  clear: both;
-  border-style: double;
-  border-width: 10px;
-  border-color: #EEE0E5;
-  margin: 15px;
+    clear: both;
+    border-style: double;
+    border-width: 10px;
+    border-color: #EEE0E5;
+    margin: 15px;
 }
 
 .rsvp-style h3 {
-  font-size: 24px;
-  text-align: center;
+    font-size: 24px;
+    text-align: center;
 }
 
 h4.modal-title {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .modal-header {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 .btn-primary {
-  background-color: white;
-  color: black;
-  border-color: #ccc;
+    background-color: #EEE0E5;
+    color: #500000;
+    border-color: #ccc;
+}
+
+.btn-primary:visited {
+    background-color: #EED2EE;
+    color: #500000;
+    border-color: #ccc;
 }
 
 .btn-primary:hover {
-  background-color: white;
-  color: grey;
-  border-color: #ccc;
+    background-color: #CFDBC5;
+    color: #500000;
+    border-color: #ccc;
+}
+
+.btn-primary:active {
+    background-color: black;
+    color: #500000;
+    border-color: #ccc;
+}
+
+.btn-default:hover {
+    background-color: #ccc;
+}
+
+
+a:focus{
+    outline:none;
+    outline-offset: none;
+    text-decoration: none;
 }
 
 /* To format the form: */
 /* www.htmlgoodies.com/tutorials/forms/article.php/3888746/HTML-Forms-From-Basics-to-Style-Layouts.htm */
 
 form {
-  text-align: left;
+    text-align: left;
 }
 
 legend {
-  padding: 20px 0px;
-  margin: 0;
-  border-bottom: none;
+    padding: 20px 0px;
+    margin: 0;
+    border-bottom: none;
 }
 
 label, input, textarea {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 form p {
-  font-size: 20px;
-  padding: 10px 0;
+    font-size: 20px;
+    padding: 10px 0;
 }
 
+/* --------------- FOOTER --------------- */
+
 footer {
-  color: #500000;
-  font-weight: 600;
-  font-size: 20px;
-  padding: 20px;
+    color: #500000;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
 }
+
+footer a {
+    border: 3px solid #CFDBC5;
+    padding: 7px 5px;
+}
+
+footer p a:focus, a:link, a:visited, a:hover, a:active {
+    color: #500000;
+    text-decoration: none;
+}
+
 
 /*************** MEDIA QUERIES *******************/
 @media screen and (max-width:1080px) and (min-width: 980px){
@@ -294,20 +336,13 @@ footer {
       height: 40px;
     }
 
-    .top-section img {
-      height: 700px;
-    }
-
     .jean, .steve, .event-details-ceremony, .event-details-reception {
       width: 100%;
     }
 
     #pics-slideshow {
-      /*height: 375px;
-      width: 375px;*/
-      display: flex;
-      justify-content: center;
-      margin: 10px 0px;
+      width: 75%;
+      margin: 10px auto;
     }
 
 

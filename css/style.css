@@ -210,7 +210,11 @@ section {
 
 .event-details-reception p, .event-details-ceremony p {
     font-size: 18px;
-    padding-bottom: 5px;
+    padding-bottom: 0;
+}
+
+iframe {
+    padding: 20px 5px;
 }
 
 

@@ -208,6 +208,11 @@ section {
     position: relative;
 }
 
+.event-details-reception p, .event-details-ceremony p {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
 
 /* --------------- RSVP SECTION --------------- */
 
@@ -249,13 +254,13 @@ h4.modal-title {
 }
 
 .btn-primary:hover {
-    background-color: #CFDBC5;
+    background-color: #fff0f5;
     color: #500000;
     border-color: #ccc;
 }
 
 .btn-primary:active {
-    background-color: black;
+    background-color: grey;
     color: #500000;
     border-color: #ccc;
 }
@@ -359,6 +364,11 @@ footer p a:focus, a:link, a:visited, a:hover, a:active {
   		top:.25em;
   		right:.5em;
   	}
+
+    .glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
+      display: none;
+    }
+
 
   	ul{
   		height:0;

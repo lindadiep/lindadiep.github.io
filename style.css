@@ -1,0 +1,52 @@
+body {
+    background-color: #FAEBD7;
+    font-family:arial;
+    color:black;
+    }
+
+th, td {
+    padding: 20px;
+}
+
+div {
+    font-size:20px;
+}
+
+a {
+    color:black;
+}
+
+ul {
+    padding:10px;
+}
+
+ul li {
+    margin:10px;
+    margin-left:35px;
+    padding:0px;
+}
+
+#header {
+    background-color:#FAEBD7;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;    
+}
+
+#section {
+    background-color:#FAEBD7;
+    color:black;
+    clear:both;
+    text-align:left;
+    padding:5px;    
+}
+
+#footer {
+    background-color:#FAEBD7;
+    color:black;
+    clear:both;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;         
+}

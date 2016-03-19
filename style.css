@@ -88,3 +88,22 @@ p, li {
     text-align:center;
     padding:5px;
 }
+
+@media screen and (max-width: 435px){
+
+
+    right-div {
+        max-width: 90%;
+    }
+
+    .div-margin {
+        margin: 20px 5px 20px 0px;
+
+    }
+
+    p {
+        max-width: 90%;
+        display: inline-block;
+    }
+
+}

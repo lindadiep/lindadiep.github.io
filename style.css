@@ -1,52 +1,42 @@
 body {
-    background-color: #FAEBD7;
     font-family:arial;
     color:black;
+    background-color: #fff7f8;
     }
 
-th, td {
-    padding: 20px;
+body a {
+    text-decoration: none;
 }
 
-div {
-    font-size:20px;
+#left-div {
+    width: 34%;
+    float: left;
+    background-color: #fff7f8;
 }
 
-a {
+#left-div p, h1 {
+    padding-left: 10px;
+}
+
+#photo-div {
     color:black;
+    width: 66%;
+    float: left;
 }
 
-ul {
-    padding:10px;
+#photo-div img {
+    width: 100%;
+    height: auto;
 }
 
-ul li {
-    margin:10px;
-    margin-left:35px;
-    padding:0px;
-}
-
-#header {
-    background-color:#FAEBD7;
-    color:black;
-    clear:both;
-    text-align:center;
-    padding:5px;    
-}
-
-#section {
-    background-color:#FAEBD7;
-    color:black;
-    clear:both;
-    text-align:left;
-    padding:5px;    
+.indent {
+    padding-left: 40px;
 }
 
 #footer {
-    background-color:#FAEBD7;
     color:black;
     clear:both;
     text-decoration:none;
     text-align:center;
-    padding:5px;         
+    padding:5px;
 }

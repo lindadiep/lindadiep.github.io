@@ -1,36 +1,78 @@
+html {
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
 body {
+    height:100%; /* force the BODY element to match the height of the HTML element */
     font-family:arial;
     color:black;
-    background-color: #fff7f8;
+    background-image: url("images/noosa-heads.jpg");
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
     }
 
 body a {
     text-decoration: none;
 }
 
-#left-div {
-    width: 34%;
-    float: left;
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+a:active {
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 10px 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+p, li {
+    padding: 7px 0px;
+}
+
+li span {
+    font-style: italic;
+}
+
+#right-div {
+    width: 400px;
     background-color: #fff7f8;
+
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
 }
 
-#left-div p, h1 {
-    padding-left: 10px;
-}
-
-#photo-div {
-    color:black;
-    width: 66%;
-    float: left;
-}
-
-#photo-div img {
-    width: 100%;
-    height: auto;
+.div-margin {
+    margin: 20px;
 }
 
 .indent {
-    padding-left: 40px;
+    margin-left: 20px;
 }
 
 #footer {

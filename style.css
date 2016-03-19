@@ -36,6 +36,7 @@ a:active {
 
 h1 {
     font-size: 40px;
+    padding-bottom: 0;
 }
 
 h2 {
@@ -49,7 +50,7 @@ ul {
 }
 
 p, li {
-    padding: 7px 0px;
+    padding: 10px 0px;
 }
 
 .list {

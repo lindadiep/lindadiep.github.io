@@ -7,10 +7,8 @@ body {
     height:100%; /* force the BODY element to match the height of the HTML element */
     font-family:arial;
     color:black;
-    background-image: url("images/ramen.jpg");
+    background-image: url("images/dr-beach-50percent.jpg ");
     background-size: cover;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
     }
 
 body a {
@@ -27,7 +25,6 @@ a:visited {
 
 a:hover {
     color: black;
-    border-bottom: 2px solid black;
 }
 
 a:active {
@@ -35,36 +32,54 @@ a:active {
 }
 
 h1 {
-    font-size: 40px;
-    padding-bottom: 0;
+    font-size: 70px;
+    padding-bottom: 20px;
 }
 
 h2 {
-    font-size: 24px;
-    padding: 10px 0px;
+    font-size: 30px;
+    padding: 15px 0px;
     cursor: pointer;
 }
 
 h2:hover {
-    font-size: 130%;
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 30px;
 }
 
 ul {
     list-style: none;
 }
 
-p, li {
+p {
+    font-family: 'Lora', serif;
+    font-size: 20px;
     padding: 10px 0px;
+}
+
+p span {
+    font-family: arial;
+    font-weight: 600;
+}
+
+li {
+    font-size: 24px;
+    padding: 10px 0px;
+    z-index: 1;
 }
 
 .list {
     display: none;
 }
 
-#right-div {
+#section {
     width: 400px;
     background-color: #fefeff;
-
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
     position:absolute;
     top:0;
     bottom:0;
@@ -73,16 +88,23 @@ p, li {
     overflow:hidden;
 }
 
-.div-margin {
+.section-margin {
     margin: 20px;
+}
+
+.my-story:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    border-bottom: none;
+    outline: 0;
+    outline-offset: 0;
+    text-decoration: none;
 }
 
 .indent {
     margin-left: 20px;
-}
-
-.slideToggle {
-    height: 20em;
 }
 
 #footer {
@@ -95,19 +117,22 @@ p, li {
 
 @media screen and (max-width: 435px){
 
-
-    right-div {
-        max-width: 90%;
+    h1 {
+        font-size: 60px;
     }
 
-    .div-margin {
-        margin: 20px 5px 20px 0px;
+    #section {
+        max-width: 100%;
+        padding-left: 5%;
+    }
 
+    .section-margin {
+        margin: 20px 5px 20px 0px;
     }
 
     p {
+        font-size: 20px;
         max-width: 90%;
-        display: inline-block;
     }
 
 }

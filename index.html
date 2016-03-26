@@ -3,49 +3,84 @@
 <html>
 
 <head>
-	<title>Linda Diep - About me</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Linda Diep</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- bootstrap latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- bootstrap optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<!-- individual stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<!-- Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic' rel='stylesheet' type='text/css'>
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lora:400,600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+	<div id="modal" class="modal fade" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+			    <div class="modal-content">
 
-	<div id="right-div">
-		<div class="div-margin">
-				<h1>Linda Diep</h1>
-				<p>Washington, D.C.</p>
-				<p>I am a recent graduate of <a href="https://generalassemb.ly/washington-dc" target="_blank">General Assembly's (GA)</a> Front-End Website Development course.</p>
-				<p>A communications professional working to transition to a developer, I am looking for creative and fun projects to work on.</p>
+				      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title">my story</h4>
+				      </div>
 
-				<h2 class="portfolio">Portfolio</h2>
+				      <div class="modal-body">
+					        <p>I am a communications professional based in Washington, DC. I recently completed a front-end website development course at General Assembly and now working to transition to a developer role. I am proficient in CSS3 and HTML5, and have working knowledge of Javascript, jQuery, Bootstrap, and responsive design.</p>
+
+									<p>I am looking for&hellip;<br />
+									full-time, part-time, freelance, and apprenticeship opportunities.</p>
+
+									<p>My (humble) dream projects include&hellip;<br />
+									code an Australian slang ipsum lorem generator; create an Advent calendar; use Yahoo Fantasy Sports&#39;s API to help prepare for draft day. Many more to come.</p>
+
+									<p>In my spare time&hellip;<br />
+									I enjoy biking, coffee, knitting, pancakes, and travelling.
+									</p>
+				      </div>
+
+							<div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+
+			    </div><!-- /.modal-content -->
+		  	</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+	<div id="section">
+		<div class="section-margin">
+				<h1>aloha.</h1>
+				<p>My name is <span>Linda Diep</span>. A recent graduate of <a href="https://generalassemb.ly/washington-dc" target="_blank">General Assembly DC</a>, I am looking for creative and fun projects to work on.</p>
+
+				<h2><a href="#modal" data-toggle="modal" class="my-story"><span>my story</span></a></h2>
+
+				<h2 class="portfolio">portfolio</h2>
 
 				<ul class="indent list portfolio-links">
-						<li><a href="https://github.com/lindadiep" target="_blank">Github</a></li>
-						<li><a href="https://codepen.io/lindadiep/" target="_blank">CodePen</a></li>
-						<li><a href="https://lindadiep.github.io/jeanandsteve/" target="_blank">Wedding site</a></li>
+						<li><a href="https://github.com/lindadiep" target="_blank">github</a></li>
+						<li><a href="https://codepen.io/lindadiep/" target="_blank">codepen</a></li>
+						<li><a href="https://lindadiep.github.io/jeanandsteve/" target="_blank">wedding site</a></li>
 				</ul>
-<!-- 
-				<h2 class="ga">GA Assignments</h2>
 
-				<ul class="indent list ga-links">
-						<li><a href="https://github.com/lindadiep/homework-city/tree/master/citipix-dropdown" target="_blank">Citipix</a></li>
-						<li><a href="https://github.com/lindadiep/homework-landingpage/tree/master/submit" target="_blank">Relaxr</a></li>
-				</ul> -->
-
-				<h2 class="contacts">Contact</h2>
+				<h2 class="contacts">contact</h2>
 
 				<ul class="indent list contacts-links">
-					<li><a href="mailto:lxdiep07@gmail.com">Email</a></li>
-					<li><a href="https://www.linkedin.com/in/linda-diep-87624923" target="_blank">LinkedIn</a></li>
-					<li><a href="https://www.twitter.com/lindaack" target="_blank">Twitter</a></li>
+					<li><a href="mailto:lxdiep07@gmail.com">email</a></li>
+					<li><a href="https://www.linkedin.com/in/linda-diep-87624923" target="_blank">linkedIn</a></li>
+					<li><a href="https://www.twitter.com/lindaack" target="_blank">twitter</a></li>
 				</div>
 		</div>
 	</div>
+
+	<!-- jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="script.js"></script>
+	<!-- boostrap latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- individual stylesheet -->
+	<script src="js/index.js"></script>
+
 </body>
 </html>

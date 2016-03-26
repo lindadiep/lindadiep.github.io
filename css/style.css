@@ -7,7 +7,7 @@ body {
     height:100%; /* force the BODY element to match the height of the HTML element */
     font-family:arial;
     color:black;
-    background-image: url("images/dr-beach-50percent.jpg ");
+    background-image: url("css/dr-beach-50percent.jpg ");
     background-size: cover;
     }
 

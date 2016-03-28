@@ -130,6 +130,15 @@ a:focus {
         margin: 20px 5px 20px 0px;
     }
 
+    .modal-body {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
     p {
         font-size: 20px;
         max-width: 90%;

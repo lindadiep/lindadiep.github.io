@@ -62,7 +62,7 @@ p {
 
 p span {
     font-family: arial;
-    font-weight: 600;
+    font-size: 24px;
 }
 
 li {
@@ -75,7 +75,7 @@ li {
     display: none;
 }
 
-#section {
+section {
     width: 400px;
     background-color: #fefeff;
     opacity: 0.6;
@@ -106,14 +106,14 @@ a:focus {
 .indent {
     margin-left: 20px;
 }
-
+/*
 #footer {
     color:black;
     clear:both;
     text-decoration:none;
     text-align:center;
     padding:5px;
-}
+}*/
 
 @media screen and (max-width: 435px){
 
@@ -121,7 +121,7 @@ a:focus {
         font-size: 60px;
     }
 
-    #section {
+    section {
         max-width: 100%;
         padding-left: 5%;
     }

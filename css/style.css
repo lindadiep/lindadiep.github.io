@@ -135,9 +135,9 @@ a:focus {
         display: flex;
         -webkit-flex-direction: column;
         flex-direction: column;
-        -webkit-justify-content: center;
+    /*  -webkit-justify-content: center;
         justify-content: center;
-    }
+    } */
 
     p {
         font-size: 20px;

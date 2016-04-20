@@ -80,6 +80,10 @@ li {
     display: none;
 }
 
+.modal-body {
+    font-family:arial;
+}
+
 section {
     width: 400px;
     background-color: #fefeff;

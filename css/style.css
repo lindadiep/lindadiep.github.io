@@ -5,7 +5,7 @@ html {
 
 body {
     height:100%; /* force the BODY element to match the height of the HTML element */
-    font-family:arial;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     color:black;
     background-image: url("dr-beach-50percent.jpg");
     background-size: cover;
@@ -55,18 +55,15 @@ ul {
 }
 
 p {
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     font-size: 20px;
     padding: 10px 0px;
 }
 
 p span {
-    font-family: arial;
     font-size: 24px;
 }
 
 q {
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     font-style: italic;
 }
 
@@ -78,10 +75,6 @@ li {
 
 .list {
     display: none;
-}
-
-.modal-body {
-    font-family:arial;
 }
 
 section {

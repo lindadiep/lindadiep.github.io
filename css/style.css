@@ -55,7 +55,7 @@ ul {
 }
 
 p {
-    font-family: 'Lora', serif;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     font-size: 20px;
     padding: 10px 0px;
 }
@@ -66,8 +66,8 @@ p span {
 }
 
 q {
-     font-family: 'Lora', serif;
-     font-style: italic;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-style: italic;
 }
 
 li {
